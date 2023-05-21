@@ -1,0 +1,1 @@
+console.log("init content-scripts"),chrome.storage.local.set({isMount:!1}),chrome.runtime.onMessage.addListener((function(e,o,s){console.log({request:e,sender:o,sendReponse:s}),console.log(chrome,"content-scripts");var n=e.data;chrome.storage.local.set({isMount:n}),document.body.style.backgroundColor=n?"green":"",s("change success")}));

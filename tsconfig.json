@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // 可以使用jsx或tsx
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
